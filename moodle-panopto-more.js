@@ -5,7 +5,7 @@
 // @grant       none
 // @version     1.1
 // @author      -
-// @description When opening a moodle course that has panopto contents, we want to load it instantly
+// @description When opening a moodle course that has Panopto content, automatically click the "show more" button
 // ==/UserScript==
 
 function panoptoReverseSort() {
@@ -44,7 +44,10 @@ function clickShowPanoptoMore() {
 
         if (showMore && showMore.innerText.indexOf("Alles") !== -1) {
             showMore.click();
+            
+            // For some lectures it might make sense to  
             panoptoReverseSort();
+
             observer.disconnect();
         }
     };
