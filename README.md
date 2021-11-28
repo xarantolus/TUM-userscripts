@@ -20,8 +20,8 @@ I recommend [ViolentMonkey](https://violentmonkey.github.io/). You can get it fo
 There are two ways of installing a script:
 
 The easy way
-1. Open the link of the script
-2. The Addon manager will prompt you if you want to install the script
+1. Click the link to the script (should open the "raw" file)
+2. The user script manager will prompt you if you want to install the script
 3. Click "Confirm installation"
 
 The manual way
