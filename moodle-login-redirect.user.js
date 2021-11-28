@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            TUM-Moodle automatic login redirect
-// @version         1
+// @version         1.0
 // @namespace       xarantolus
 // @author          xarantolus
 // @grant           none

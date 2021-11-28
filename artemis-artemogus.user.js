@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        Artemogus Replacement
-// @namespace   Violentmonkey Scripts
 // @match       https://artemis.ase.in.tum.de/*
 // @grant       none
 // @version     0.1.0
+// @namespace   xarantolus
 // @author      xarantolus
 // @description Replaces the Artemis logo with an Artemogus
 // ==/UserScript==

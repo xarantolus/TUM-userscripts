@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        Moodle Panopto Content
-// @namespace   Violentmonkey Scripts
+// @name        Moodle Panopto Show More
 // @match       https://www.moodle.tum.de/course/view.php
 // @grant       none
 // @version     1.1
-// @author      -
+// @namespace   xarantolus
+// @author      xarantolus
 // @description When opening a moodle course that has Panopto content, automatically click the "show more" button
 // ==/UserScript==
 

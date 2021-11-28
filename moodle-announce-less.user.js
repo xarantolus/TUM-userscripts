@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        Moodle Announce Less
-// @namespace   Violentmonkey Scripts
 // @match       https://www.moodle.tum.de/course/view.php
 // @grant       none
 // @version     1.1
-// @author      -
+// @namespace   xarantolus
+// @author      xarantolus
 // @description When opening a moodle course, make sure the page isn't cluttered with news
 // ==/UserScript==
 
