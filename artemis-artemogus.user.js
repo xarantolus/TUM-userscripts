@@ -2,7 +2,7 @@
 // @name        Artemogus Replacement
 // @match       https://artemis.ase.in.tum.de/*
 // @grant       none
-// @version     0.1.0
+// @version     0.2.0
 // @namespace   xarantolus
 // @author      xarantolus
 // @description Replaces the Artemis logo with an Artemogus
@@ -39,11 +39,13 @@ function replaceNavbarImage() {
             if (title) {
                 title.innerText = "Artemogus";
 
-                // Now we have replaced both image and title, we can disconnect
-                observer.disconnect();
+                if (observer != null) {
+                    // Now we have replaced both image and title, we can disconnect
+                    observer.disconnect();
 
-                // Since the title can change back to Artemis when switching translations, we now observe it only
-                observer.observe(title, config);
+                    // Since the title can change back to Artemis when switching translations, we now observe it only
+                    observer.observe(title, config);
+                }
             }
         }
     }
@@ -53,9 +55,12 @@ function replaceNavbarImage() {
         subtree: true
     };
 
-    const observer = new MutationObserver(callback);
+    var observer = new MutationObserver(callback);
 
     observer.observe(document.body, config);
+
+    // In case the page has already loaded everything, we need to replace it right now (observer won't see anything)
+    callback();
 }
 
 
