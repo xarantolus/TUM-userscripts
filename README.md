@@ -5,7 +5,7 @@ Obviously this is not official in any way, and anything that happens (e.g. if an
 
 ### Useful
 * [Moodle Login Redirect](moodle-login-redirect.user.js?raw=true): When you are redirected to the page that asks you to select TUM/LMU login, it automatically clicks the "TUM login" button. This just saves you a click.
-* [Moodle Show Calendar Course Info](moodle-calendar-course-names.js): Show course names next to calendar events on the home/start page
+* [Moodle Show Calendar Course Info](moodle-calendar-course-names.js?raw=true): Show course names next to calendar events on the home/start page
 * [Moodle Announce Less](moodle-announce-less.user.js?raw=true): Allows up to three news items in the "News" section of a course and removes all other news
 * [Moodle Panopto Show More](moodle-panopto-showmore.user.js?raw=true): Automatically clicks the "Show more" button on Panopto content of a moodle course
 
