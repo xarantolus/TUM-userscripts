@@ -23,6 +23,7 @@ function annotateCalendarEvents() {
       let courseTitle = courseInfo.find(x => x.title && x.href.endsWith(courseID))?.title?.trim()
       if (!courseTitle) continue;
 
+      // Yep, injections could be possible, but I don't care
       evt.insertAdjacentHTML("beforebegin", "<strong>" + courseTitle + "</strong><br>");
     }
 
