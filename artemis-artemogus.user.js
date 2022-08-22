@@ -30,7 +30,7 @@ function replaceFavicon() {
 function replaceNavbarImage() {
     var callback = function (mutationsList, observer) {
         // As soon as our element exists, we replace its image
-        var elem = document.querySelector(".logo-img");
+        var elem = document.querySelector(".navbar-brand > img");
         if (elem) {
             elem.src = replacedHeaderImage;
 
