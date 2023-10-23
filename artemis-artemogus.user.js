@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        Artemogus Replacement
 // @match       https://artemis.ase.in.tum.de/*
+// @match       https://artemis.cit.tum.de/*
 // @grant       none
 // @version     0.2.0
 // @namespace   xarantolus
