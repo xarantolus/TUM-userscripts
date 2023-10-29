@@ -27,7 +27,7 @@ let observer = new MutationObserver((mutations) => {
               let textToCopy = ttElement.textContent.replace(/⎵/g, ' ');
               let lastIndex = textToCopy.lastIndexOf('🗎');
               if (lastIndex !== -1) {
-                  textToCopy = textToCopy.slice(0, lastIndex) + textToCopy.slice(lastIndex + 'Copy'.length);
+                  textToCopy = textToCopy.slice(0, lastIndex) + textToCopy.slice(lastIndex + '🗎'.length);
               }
               navigator.clipboard.writeText('"' + textToCopy + '"')
                   .then(() => {})
