@@ -5,6 +5,8 @@
 // @description  Adds a copy button to the strings on Artemis
 // @author       Nanook
 // @match        https://artemis.ase.in.tum.de/*
+// @match        https://artemis.cit.tum.de/*
+// @match        https://artemis.in.tum.de/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tum.de
 // ==/UserScript==
 
